@@ -5,7 +5,9 @@
              BackgroundColor="White">
 
     <StackLayout Padding="5, 5, 5, 5">
-        <CheckBox IsChecked="True" />
+        <Button Text="Scan" Clicked="Scan_Clicked" />
+        <Button Text="bbbbb" Clicked="GoToSecondPage_Clicked" />
+        <Label Text="" x:Name="mycode" TextColor="Red" />
     </StackLayout>
 
 </ContentPage>
