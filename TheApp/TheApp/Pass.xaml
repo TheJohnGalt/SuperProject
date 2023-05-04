@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:zxing ="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
+             x:Class="TheApp.SecondPage">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <zxing:ZXingBarcodeImageView BarcodeValue="Amogus" WidthRequest="500" HeightRequest="500" />
+
+            <Button Text="Go back to main page" Clicked="GoBack_Clicked"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

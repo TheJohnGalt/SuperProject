@@ -23,7 +23,7 @@ namespace TheApp
 
         private async void GoToSecondPage_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new SecondPage());
+            await Navigation.PopAsync();
         }
 
         private async void Scan_Clicked(Object sender, EventArgs e)

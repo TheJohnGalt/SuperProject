@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace TheApp
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class SecondPage : ContentPage
+    public partial class Registration : ContentPage
     {
-        public SecondPage()
+        public Registration()
         {
             InitializeComponent();
-        }
-
-        private async void GoBack_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PopAsync();
         }
     }
 }
