@@ -6,10 +6,12 @@
     <ContentPage.Content>
         <StackLayout>
 
-            <zxing:ZXingBarcodeImageView BarcodeValue="Amogus" WidthRequest="500" HeightRequest="500" />
+            <zxing:ZXingBarcodeImageView x:Name="MainQRImage" BarcodeValue="am" WidthRequest="500" HeightRequest="500" />
 
             <Button Text="Go back to main page" Clicked="GoBack_Clicked"/>
+            <Button Text="Create QR code" Clicked="CreateQR_Clicked"/>
             
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

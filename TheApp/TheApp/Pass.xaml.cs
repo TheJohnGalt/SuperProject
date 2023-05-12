@@ -21,5 +21,10 @@ namespace TheApp
         {
             await Navigation.PushAsync(new MainPage());
         }
+
+        private async void CreateQR_Clicked(object sender, EventArgs e)
+        {
+            MainQRImage.BarcodeValue = "Amogus";
+        }
     }
 }
