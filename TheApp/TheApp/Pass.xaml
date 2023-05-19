@@ -11,6 +11,7 @@
             <Button Text="Go back to main page" Clicked="GoBack_Clicked"/>
             <Button Text="Create QR code" Clicked="CreateQR_Clicked"/>
             
+            
 
         </StackLayout>
     </ContentPage.Content>

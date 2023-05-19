@@ -19,7 +19,7 @@ namespace TheApp
 
         private async void GoBack_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new MainPage());
+            await Navigation.PushAsync(new Registration());
         }
 
         private async void CreateQR_Clicked(object sender, EventArgs e)

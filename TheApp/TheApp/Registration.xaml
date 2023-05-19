@@ -4,9 +4,8 @@
              x:Class="TheApp.Registration">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Это страница регистрации"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="entry" />
+            <Button Text="Output"  Clicked="Out_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

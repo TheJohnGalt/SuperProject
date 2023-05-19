@@ -12,9 +12,16 @@ namespace TheApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Registration : ContentPage
     {
+        TheApp.Logic.Logic logic = new TheApp.Logic.Logic();
         public Registration()
         {
             InitializeComponent();
+        }
+
+        private async void Out_Clicked(object sender, EventArgs e)
+        {
+
+            Console.WriteLine(entry.Text);
         }
     }
 }
