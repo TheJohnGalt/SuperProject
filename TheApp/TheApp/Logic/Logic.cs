@@ -6,13 +6,14 @@ namespace TheApp.Logic
 {
     public class Logic
     {
-        public string Encript(string orig)
+        public string Encrypt(string orig)
         {
-            string encripted = "";
+            string encrypted = "";
 
-            encripted = orig + "qwertyuiop";
+            encrypted = orig + "qwertyuiop";
 
             return encripted;
+            
         }
     }
 }

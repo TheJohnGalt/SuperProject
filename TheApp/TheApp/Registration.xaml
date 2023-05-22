@@ -5,6 +5,8 @@
     <ContentPage.Content>
         <StackLayout>
             <Entry x:Name="entry" />
+            <Entry x:Active="entry" />
+            <Entry x:Number="entry" />
             <Button Text="Output"  Clicked="Out_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
