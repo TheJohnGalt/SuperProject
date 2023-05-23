@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
+
 namespace TheApp.Logic
 {
     public class Logic
@@ -12,7 +13,7 @@ namespace TheApp.Logic
 
             encrypted = orig + "qwertyuiop";
 
-            return encripted;
+            return encrypted;
             
         }
     }

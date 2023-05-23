@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TheApp.Models
 {
-    class User
+    public class User
     {
         public string Name { get; set; }
         public string Number { get; set; }

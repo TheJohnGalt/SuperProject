@@ -4,9 +4,9 @@
              x:Class="TheApp.Registration">
     <ContentPage.Content>
         <StackLayout>
-            <Entry x:Name="entry" />
-            <Entry x:Active="entry" />
-            <Entry x:Number="entry" />
+            <Entry x:Name="name" />
+            <Entry x:Name="active" />
+            <Entry x:Name="number" />
             <Button Text="Output"  Clicked="Out_Clicked"/>
         </StackLayout>
     </ContentPage.Content>

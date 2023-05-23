@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using TheApp.Models;
+using TheApp.Logic;
 
 namespace TheApp
 {
@@ -20,8 +21,10 @@ namespace TheApp
 
         private async void Out_Clicked(object sender, EventArgs e)
         {
+            User user = new User(name.Text, number.Text, DateTime.Parse(active.Text));
 
-            Console.WriteLine(entry.Text);
+            
+
         }
     }
 }
